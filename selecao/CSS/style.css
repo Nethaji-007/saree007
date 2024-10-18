@@ -1,0 +1,401 @@
+*{
+    margin: 0%;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+#header{
+    background-color: #2a2c39;
+    height: 80px;
+    display: flex;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  
+  
+}
+.selecao{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 32px;
+    cursor: pointer;
+    margin-top: 14px;
+    margin-left: 7px;
+}
+.menus{
+    display: flex;
+    list-style: none;
+    margin-left: 710px;
+    margin-top: 26px;
+}
+.menu{
+    margin-left: 70px;
+}
+.menuname
+{text-decoration: none;
+    color: white;
+    padding: 7px;
+    border-radius: 22px;
+    font-weight: 400;
+}
+.active{
+    color: #ef6603;
+}
+.active:hover{
+    color: white;
+}
+
+.menuname:hover{
+    background: #ef6603;
+}
+.kmenus{
+    position: absolute;
+    background-color: white;
+    line-height: 30px;
+    border-radius: 10px;
+    width: 90px;
+    text-align: center;
+ 
+}
+
+.kmenu{
+    list-style: none;
+    padding: 2px;
+   
+}
+.kmenuname{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+}
+.kmenuname:hover{
+    color: #ef6603;
+}
+.menu:hover .kmenus{
+    display: block;
+}
+#banner1{
+    background-color: #2a2c39;
+    height: 500px;
+    overflow:hidden;
+}
+ #subbanner{
+width: 730px;
+margin: auto;
+
+}  
+ .welcome{
+
+font-size: 50px;
+
+color: white;
+
+text-align: center;
+
+margin-top: 113px;
+} 
+.welcome::after{
+    content: ' Selecao';
+    text-decoration: underline;
+    text-transform: capitalize;
+    color: white;
+
+ }
+ .para{
+
+color: white;
+line-height: 22px;
+text-align: center;
+}
+.btn{
+    
+margin-top: 40px;
+    
+margin-left: 300px;
+    
+color: white;
+    
+background: #2a2c39;
+    
+border: 2px solid #ef6603;
+    
+height: 50px;
+    
+font-weight: 600;
+    
+width: 140px;
+    
+border-radius: 40px;
+    
+cursor: pointer;
+}
+.btn:hover{
+    background-color: #ef6603;
+    border-color: aliceblue;
+}
+.fa-chevron-left{
+    color: white;
+    font-size: 100px;
+    position: absolute;
+    left: -451px;
+    top: 65px;
+    opacity: 0.5;
+  
+}
+.fa-chevron-right{
+    color: white;
+    font-size: 100px;
+    position: relative;
+    bottom: 86px;
+    left: 570px;
+    opacity: 0.5;
+    
+}
+.arrow:hover{
+    opacity: 1;
+}
+.arrow1:hover{
+    opacity: 1;
+}
+/*second banner*/
+#banner2{
+    background-color: #ffffff;
+    height: 272px;
+    padding: 100px 100px;
+    overflow: hidden;
+}
+.about::after 
+{
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #ef6603;
+    margin-bottom: 4px;
+    margin-left: 25px;
+}
+.about{
+    opacity: 0.5;
+}
+.who{
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 40px;
+}
+.fex{
+    display: flex;
+}
+.left{
+    flex:1;
+}
+.right{
+    flex: 1;
+}
+.leftpara{
+
+margin-bottom: 20px;
+}
+.ulist{
+
+list-style: none;
+}
+.lilist{
+    
+line-height: 30px;
+    
+padding: 3px;
+}
+.rightpara{
+    
+letter-spacing: 1px;
+ line-height: 23px;
+font-size: 15px;
+    
+margin-bottom: 42px;
+}
+.abtn{
+    
+width: 160px;
+    
+margin-left: 25px;
+    
+background: #ef6603;
+    
+color:black;
+    
+height: 50px;
+    
+border-radius: 7px;
+    
+font-size: 16px;
+}
+.abtn:hover{
+    border-color: #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+}
+.fa-arrow-right-long {
+    position: relative;
+    right: 33px;
+    color: black;
+    z-index: 0;
+   
+}
+.fa-arrow-right-long:hover{
+    color: white;
+}
+
+.fa-circle-check{
+    color: #ef6603;
+}
+/*section 3*/
+#banner3{
+    background:white;
+    height: 100px;
+    padding: 80px;
+}
+.boxflex{display: flex;height: 130px;}
+.sep{
+    border: 2px solid #644a37;
+    margin-left: 45px;
+}
+.boxex1{flex: 1;}
+.boxex1{
+    flex: 1;
+}
+.boxex2{
+    flex: 1;
+        
+}
+.boxex3{
+    flex: 1;
+            
+}
+.boxex4{
+    flex: 1;
+                
+}
+.head4{
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 94px;
+    text-align: center;
+}
+.fa-binoculars{
+   
+    font-size: 80px;
+    overflow: hidden;
+    position: absolute;
+    left: 160px;
+    top: 1150px;
+} 
+.activa{
+  color: #ef6603;
+  border-color: #ef6603;
+}
+.sep:hover{ 
+    color: #ef6603;
+    border-color: #ef6603;
+    cursor: pointer;
+}
+.fa-box-open{
+  
+    font-size: 80px;
+    overflow: hidden;
+    position: absolute;
+    top: 1150px;
+    left: 580px;
+}  
+.fa-sun{
+    font-size: 80px;
+    overflow: hidden;
+    position: absolute;
+    top: 1150px;
+    right: 790px;
+}   
+.fa-jedi-order{
+    font-size: 80px;
+    overflow: hidden;
+    position: absolute;
+    top: 1150px;
+    right: 360px;
+}  
+#midsection{
+    background: #ffffff;
+    padding: 80px;
+    height: 600px;
+    display: flex;
+    overflow: hidden;
+}
+.flex2{
+    flex: 1;
+}
+.lapimg{
+    flex: 1;
+    padding: 60px;
+}
+.mdhead{
+
+margin-bottom: 40px;
+
+font-size: 32px;
+}
+.mdpara{
+
+font-size: 18px;
+
+margin-bottom: 31px;
+
+opacity: 0.7;
+}
+.mdul{
+
+list-style: none;
+}
+.same{
+
+margin-bottom: 12px;
+}
+.diif{
+    
+margin-bottom: 60px;
+}
+.lastpara{
+}
+#banner4{
+    height: 400px;
+}
+.owlbox{
+    height: 180px;
+    width: 180px;
+    background-color: white;
+}
+.firstimg{
+border-radius: 238px;
+}
+.bars{
+    position: absolute;
+    top: 10px;
+    right: 18px;
+    font-size: 40px;
+    color: white;
+    display: none;
+}
+@media screen and (max-width:480px){
+
+    .menus{
+        display: none;
+      }
+      .bars{
+       
+      }
+      .btn{
+       
+      }
+      .para{
+      
+      }
+      .welcome{
+       
+      }
+}
+
